@@ -23,8 +23,7 @@ export let sauceConf = {
     ] : [
         {
             'appium:app': 'storage:filename=LojaEBAC.ipa', // The filename of the mobile app
-            'appium:deviceName': 'iPhone.*',
-            'appium:platformVersion': '17',
+            'appium:deviceName': 'iPhone XR',
             'appium:automationName': 'XCUITest',
             'sauce:options': {
                 build: 'appium-build-teste-ebacshop-ios',
