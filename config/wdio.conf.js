@@ -1,3 +1,4 @@
+import { bsConf } from './bs.conf.js';
 import { localConf } from './local.conf.js'
 import { sauceConf } from './sauce.conf.js'
 
@@ -9,6 +10,8 @@ function getConfig() {
             return localConf
         case 'saucelabs':
             return sauceConf
+        case 'browserstack':
+            return bsConf
     }
 }
 
